@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CBSE Results 2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #00bcd4;
+      color: white;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header img {
+      height: 80px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .container {
+      background-color: white;
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"], input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+
+    .security {
+      display: flex;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    .security img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .buttons input {
+      padding: 10px 20px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .submit-btn {
+      background-color: #2196F3;
+    }
+
+    .reset-btn {
+      background-color: #f44336;
+    }
+
+    .disclaimer {
+      font-size: 12px;
+      color: #333;
+      margin-top: 30px;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://cbseresults.nic.in/images/cbse_logo.png" alt="CBSE Logo">
+    <h1>https://cbseresults.nic.in</h1>
+  </div>
+
+  <div class="container">
+    <h2>Secondary School Examination(Class X) Results 2025</h2>
+    <form>
+      <label>Your Roll Number:</label>
+      <input type="text" name="roll" required>
+
+      <label>Your School Number:</label>
+      <input type="text" name="school" required>
+
+      <label>Admit Card ID <small>(as given on your admit card)</small>:</label>
+      <input type="text" name="admit" required>
+
+      <label>Date Of Birth (DD/MM/YYYY):</label>
+      <input type="text" name="dob" placeholder="DD/MM/YYYY" required>
+
+      <label>Enter Security Pin <small>(case sensitive)</small>:</label>
+      <div class="security">
+        <img src="https://fakeimg.pl/80x40/?text=DC4QR6" alt="Security Pin">
+        <input type="text" name="captcha" required>
+      </div>
+
+      <div class="buttons">
+        <input type="submit" value="Submit" class="submit-btn">
+        <input type="reset" value="Reset" class="reset-btn">
+      </div>
+
+      <p class="disclaimer">
+        <strong>Disclaimer:</strong> Neither NIC nor CBSE is responsible for any inadvertent error that may have crept in the results being published on Net. The results published on net are for immediate information to the examinees. These cannot be treated as original mark sheets. Respective original mark sheets have been issued by the Board.
+      </p>
+    </form>
+  </div>
+
+</body>
+</html>
